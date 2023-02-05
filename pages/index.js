@@ -122,11 +122,11 @@ let options = {
         Combust: null,
         Entertain: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -148,11 +148,11 @@ let options = {
         "Unlock...": null,
         Entertain: null
       },
-      Everybody: {
-        Enjoys: null,
-        Takes: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Enjoy: null,
+        Take: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         "A Guide": null,
@@ -174,11 +174,11 @@ let options = {
         "Unlock...": null,
         Entertain: null
       },
-      Everybody: {
-        Enjoys: null,
-        Takes: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Enjoy: null,
+        Take: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         "A Guide": null,
@@ -200,11 +200,11 @@ let options = {
         Combust: null,
         Entertain: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -228,11 +228,11 @@ let options = {
         Eats: null,
         Dabs: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -254,11 +254,11 @@ let options = {
         Eats: null,
         Dabs: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -280,11 +280,11 @@ let options = {
         Eats: null,
         Dabs: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -306,11 +306,11 @@ let options = {
         Eats: null,
         Dabs: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -386,11 +386,11 @@ let options = {
         Combust: null,
         Entertain: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -412,11 +412,11 @@ let options = {
         Combust: null,
         Entertain: null
       },
-      Everybody: {
-        Wants: null,
-        Needs: null,
-        Hates: null,
-        Loves: null
+      You: {
+        Want: null,
+        Need: null,
+        Hate: null,
+        Love: null
       },
       Without: {
         Colour: null,
@@ -428,11 +428,11 @@ let options = {
   }
 }
 
-let ex = "Stupid Shit Everybody Needs"
+let ex = "Stupid Shit You Needs"
 
 export default function Index() {
   const [stage, setStage] = useState(0)
-  const [prompt, setPrompt] = useState(`Begin Epoch's Prompt:`)
+  const [prompt, setPrompt] = useState(`Begin Reboot's Prompt:`)
   function processVote(word) {
     if (stage == 0) {
       setPrompt(word)

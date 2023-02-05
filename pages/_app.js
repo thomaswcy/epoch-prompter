@@ -13,7 +13,7 @@ export default class App extends NextApp {
       <ThemeProvider theme={theme}>
         <ForceTheme theme="dark" />
         <Component {...pageProps} />
-        <Meta title="Choose The Prompt For Epoch" />
+        <Meta title="Choose The Prompt For Reboot" />
       </ThemeProvider>
     )
   }

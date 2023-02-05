@@ -1,4 +1,4 @@
-# Epoch Prompter
+# Reboot Prompter
 
 🤪 A **static** Next.js site to choose a prompt for Epoch!
 
